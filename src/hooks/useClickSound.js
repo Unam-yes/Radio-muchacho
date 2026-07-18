@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import clickSound from '../assets/audio/Click.mp3';
+import clickSound from '../assets/audio/click.mp3';
 
 export function useClickSound(soundPath = clickSound) {
   const audioPoolRef = useRef([]);
